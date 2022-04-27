@@ -15,6 +15,11 @@
  */
 package dev.rpmhub;
 
+import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
+
+
+@RegisterRestClient(baseUri = "http://localhost:4444/service")
+
 public class Person {
 
     private String name;
