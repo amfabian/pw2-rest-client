@@ -24,7 +24,7 @@ import javax.ws.rs.core.MediaType;
 @Path("/servicea")
 public class ServiceA {
 
-    // TODO
+    // TO-DO
     // Por meio de injeção de dependência,
     // instancie o Rest Cliente para o serviço B
 
@@ -32,7 +32,7 @@ public class ServiceA {
     @Path("/person/{name}")
     @Produces(MediaType.APPLICATION_JSON)
     public Person getPerson(@PathParam("name") String name){
-        // TODO
+        // TO-DO
         // Complete o método
         return null;
     }
